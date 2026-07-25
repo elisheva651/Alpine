@@ -1,0 +1,19 @@
+# Build
+build/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
