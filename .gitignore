@@ -1,18 +1,28 @@
 # Build
 build/
+.pio/
+.pioenvs/
+.piolibdeps/
+cmake-build-*/
 
-# Logs
-*.log
+# Firmware binaries
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
 
 # IDE
 .idea/
-.vscode/settings.json
-.vscode/launch.json
-.vscode/tasks.json
+.vscode/
+compile_commands.json
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
 
 # Python
 __pycache__/
